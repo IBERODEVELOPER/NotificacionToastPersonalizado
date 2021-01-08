@@ -18,8 +18,9 @@ public class MainActivity extends AppCompatActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
-        //por el icno en el action bar
+        //Activamos el action bar
         getSupportActionBar().setDisplayShowHomeEnabled(true);
+        //indicamos el drawable del action bar
         getSupportActionBar().setIcon(R.drawable.ic_action_name);
 
     }
