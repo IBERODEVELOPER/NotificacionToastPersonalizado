@@ -37,5 +37,13 @@ public class MainActivity extends AppCompatActivity {
             toast.show();
             }
 
+        public void NotificacionToasImgPerson(View v){
+            LayoutInflater inflater = getLayoutInflater();
+            View view = inflater.inflate(R.layout.custom_toast_fron_end, (ViewGroup) findViewById(R.id.constrain));
+            Toast toast = new Toast(getApplicationContext());
+            toast.setGravity(Gravity.CENTER|Gravity.LEFT,0,500);
+            toast.setView(view);
+            toast.show();
+        }
 
 }

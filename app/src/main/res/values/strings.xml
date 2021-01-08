@@ -3,4 +3,5 @@
     <string name="Toast_simple">TOAST SIMPLE</string>
     <string name="Toast_con_imagen">TOAST CON IMAGEN</string>
     <string name="Toast_con_imagen_personalizado">TOAST CON IMAGEN PERSONALIZADO</string>
+    <string name="text_p">TOAST CON DISEÑO DE LAYOUT</string>
 </resources>
