@@ -12,9 +12,7 @@ import android.widget.Toast;
 
 public class MainActivity extends AppCompatActivity {
 
-
-
-    @Override
+   @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
@@ -39,12 +37,12 @@ public class MainActivity extends AppCompatActivity {
             toast.show();
             }
 
+    /*Notificacion toast personalizado con imagen y alineacion */
         public void NotificacionToasImgPerson(View v){
-            /*Notificacion toast personalizado con imagen y alineacion */
             LayoutInflater inflater = getLayoutInflater();
             View view = inflater.inflate(R.layout.custom_toast_fron_end, (ViewGroup) findViewById(R.id.constrain));
             Toast toast = new Toast(getApplicationContext());
-            toast.setGravity(Gravity.CENTER|Gravity.LEFT,0,500);
+            toast.setGravity(Gravity.LEFT,100,0);
             toast.setView(view);
             toast.show();
         }
